@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Window</title>
+    <link rel="stylesheet" href="vipstyles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>TICKETING WINDOW FOR 3 DAY PASS / VIP PASS </h2>
+        <form action="confirmation.html" target="_blank">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <input type="tel" name="phone" placeholder="Your Phone Number" required><br>
+            <div class="schedule">
+                <label><ins>CHOOSE A PASS</ins></label><br>
+                <input type="radio" name="pass" value="day1" id="schedule1" required>
+                <label for="schedule1">3 - DAY PASS</label><br>
+                <input type="radio" name="pass" value="day2" id="schedule2" required>
+                <label for="schedule2">VIP EXPERIENCE</label><br>
+            </div>
+            <div class="checkboxes">
+                <input type="checkbox" name="terms" id="terms" required>
+                <label for="terms" style="color: red;"><strong>*Accept terms and conditions</strong></label>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button></a>
+        </form>
+    </div>
+</body>
+</html>

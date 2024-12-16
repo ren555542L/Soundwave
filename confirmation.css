@@ -1,0 +1,11 @@
+section{
+    border: 2px solid;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20%;
+    color: aliceblue;
+    background-color: rgb(42, 42, 94);
+}
+body{
+    background-image: url("https://i.pinimg.com/originals/3e/3d/b8/3e3db8caed636e0573fae54d352a78b0.png");
+}

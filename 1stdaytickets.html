@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Window</title>
+    <link rel="stylesheet" href="ticket-styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>TICKET WINDOW </h2>
+        <form action="confirmation.html" target="_blank">
+            <input type="text" name="name" placeholder="Your Name" required><br>
+            <input type="email" name="email" placeholder="Your Email" required><br>
+            <input type="tel" name="phone" placeholder="Your Phone Number" required><br>
+            <div class="schedule">
+                <label><ins>CHOOSE A DAY</ins></label><br>
+                <input type="radio" name="schedule" value="day1" id="schedule1" required>
+                <label for="schedule1">DAY 1 - 15 July</label><br>
+                <input type="radio" name="schedule" value="day2" id="schedule2" required>
+                <label for="schedule2">DAY 2 - 16 July</label><br>
+                <input type="radio" name="schedule" value="day3" id="schedule3" required>
+                <label for="schedule3">DAY 3 - 17 July</label><br>
+            </div>
+            <div class="checkboxes">
+                <input type="checkbox" name="terms" id="terms" required>
+                <label for="terms" style="color: red;">*Accept terms and conditions</label>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button></a>
+        </form>
+    </div>
+</body>
+</html>
